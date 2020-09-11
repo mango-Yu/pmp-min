@@ -6,7 +6,7 @@
 	"miniprogramRoot": "miniprogram/",
 	"compileType": "miniprogram",
 	"libVersion": "2.12.2",
-	"projectname": "pmpMin",
+	"projectname": "LEARN PMP",
 	"scripts": {
 		"beforeCompile": "npm run tsc",
 		"beforePreview": "npm run tsc",
