@@ -1,10 +1,9 @@
 {
   "pages": [
+    
+    "pages/section/section",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/section",
-    "pages/section/section",
-    "pages/tool",
     "pages/tool/tool",
     "pages/explanation/explanation"
   ],
@@ -13,6 +12,29 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/section/section",
+        "text": "章节",
+        "iconPath": "images/section_default.png",
+        "selectedIconPath": "images/section.png"
+      },
+      {
+        "pagePath": "pages/tool/tool",
+        "text": "工具（输入/输出）",
+        "iconPath": "images/tool_default.png",
+        "selectedIconPath": "images/tool.png"
+      },
+      {
+        "pagePath": "pages/explanation/explanation",
+        "text": "名词解释",
+        "iconPath": "images/explanation_default.png",
+        "selectedIconPath": "images/explanation.png"
+      }      
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
