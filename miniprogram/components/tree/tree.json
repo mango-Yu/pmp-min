@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "树组件",
+  "component": true,
   "usingComponents": {
     "tree": "/components/tree/tree"
   }

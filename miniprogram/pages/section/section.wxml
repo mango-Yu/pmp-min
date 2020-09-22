@@ -1,2 +1,5 @@
 <!--miniprogram/pages/section/section.wxml-->
-<text>miniprogram/pages/section/section.wxml</text>
+
+<view>
+  <tree treeList="{{treeList}}" bind:treeTap="treeTap"></tree>
+</view>
